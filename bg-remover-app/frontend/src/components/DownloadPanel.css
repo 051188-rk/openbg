@@ -1,0 +1,36 @@
+.download-section {
+  background: #fff;
+  padding: 64px 0 64px 0;
+  font-family: 'Poppins', 'Canva Sans', Arial, sans-serif;
+}
+.download-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.download-left {
+  max-width: 440px;
+}
+.download-left h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 18px;
+}
+.download-left p {
+  color: #222;
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+.download-right {
+  display: flex;
+  align-items: center;
+}
+.download-img {
+  width: 320px;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.09);
+}

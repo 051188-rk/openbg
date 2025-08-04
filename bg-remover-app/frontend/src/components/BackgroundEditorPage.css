@@ -1,0 +1,73 @@
+.editor-page {
+  background: #fff;
+  min-height: 100vh;
+  padding: 64px 0 48px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+.editor-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px 0;
+  position: relative;
+}
+.editor-image {
+  max-width: 420px;
+  width: 80vw;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  margin-bottom: 24px;
+  background: #f6f6f6;
+}
+.editor-image-blur {
+  filter: blur(4px);
+  pointer-events: none;
+  position: relative;
+}
+.editor-action-btn {
+  background: #fbca1f;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  margin: 16px 0 0 0;
+}
+.editor-action-btn:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+.editor-action-btn:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+.editor-undo-redo {
+  display: flex;
+  gap: 16px;
+  margin: 18px 0 0 0;
+}
+.editor-undo-redo button {
+  background: #fff;
+  border: 2px solid #111;
+  border-radius: 8px;
+  padding: 8px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.editor-undo-redo button:hover {
+  background: #fbca1f;
+  color: #111;
+}

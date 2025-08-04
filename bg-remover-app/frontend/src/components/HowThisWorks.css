@@ -1,0 +1,61 @@
+.how-section {
+  background: #fff;
+  padding: 60px 0 40px 0;
+  font-family: 'Poppins', 'Canva Sans', Arial, sans-serif;
+}
+
+.how-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #111;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.how-steps {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+/* Updated How-Step Card Design */
+.how-step {
+  background-color: #fff;
+  padding: 34px 30px 28px 30px;
+  width: 300px;
+  text-align: center;
+  border-radius: 18px;
+  border: 3px solid #323232;
+  box-shadow: 10px 10px #323232;
+  font-family: 'Poppins', 'Canva Sans', Arial, sans-serif;
+  transition: all 0.3s ease;
+}
+
+.how-step:hover {
+  transform: translateY(-4px);
+  box-shadow: 14px 14px #2a2a2a;
+}
+
+/* Step Image - made smaller */
+.how-step-img {
+  width: 90px;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+/* Title inside card */
+.how-step h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+/* Description text - larger */
+.how-step p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1F2937;
+  margin-bottom: 0;
+}

@@ -1,0 +1,113 @@
+.hero-section {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 72px 0 36px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+.hero-content {
+  max-width: 520px;
+  margin-left: 48px;
+}
+.hero-title {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 18px;
+}
+.hero-desc {
+  font-size: 1.35rem;
+  color: #222;
+  margin-bottom: 36px;
+}
+.hero-btn {
+  background: #fbca1f;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+  color: black;
+  text-decoration: none; /* removes underline */
+  outline: none;
+  display: inline-block; /* ensures button-like behavior for <a> */
+}
+
+.hero-btn:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+.hero-btn:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+.hero-support {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 48px;
+  right: 552px;
+  bottom: 240px;
+  max-width: 700px;
+  width: 20vw;
+  height: auto;
+}
+.hero-images {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 48px;
+}
+.hero-image-main {
+  max-width: 340px;
+  width: 60vw;
+  height: auto;
+  border-radius: 22px;
+  box-shadow: 0 8px 36px rgba(0,0,0,0.08);
+  object-fit: cover;
+  z-index: 1;
+}
+.hero-image-accent {
+  position: absolute;
+  right: 300px;
+  bottom: -50px;
+  max-width: 150px;
+  width: 18vw;
+  height: auto;
+  z-index: 2;
+  pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 48px 0 24px 0;
+    text-align: center;
+  }
+  .hero-content {
+    margin-left: 0;
+    margin-bottom: 32px;
+    max-width: 100%;
+  }
+  .hero-images {
+    margin-right: 0;
+    justify-content: center;
+  }
+  .hero-image-main {
+    max-width: 260px;
+    width: 80vw;
+  }
+  .hero-image-accent {
+    right: 0;
+    bottom: -18px;
+    max-width: 60px;
+    width: 24vw;
+  }
+}

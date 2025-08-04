@@ -1,0 +1,14 @@
+.footer {
+  background: #fff;
+  border-top: 1px solid #eee;
+  padding: 32px 0 18px 0;
+  text-align: center;
+  color: #111;
+  font-family: 'Poppins', 'Canva Sans', Arial, sans-serif;
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+}
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}

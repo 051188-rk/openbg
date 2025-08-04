@@ -1,0 +1,29 @@
+.download-btns {
+  display: flex;
+  gap: 18px;
+  margin-top: 28px;
+  justify-content: center;
+}
+.download-btn {
+  background: #fbca1f;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 17px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+}
+.download-btn:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+.download-btn:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}

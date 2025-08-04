@@ -1,0 +1,59 @@
+.features-section {
+  background: #fff;
+  padding: 60px 0 40px 0;
+  font-family: 'Poppins', 'Canva Sans', Arial, sans-serif;
+}
+
+.features-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #111;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+/* Updated effect only — keeping shape/size the same */
+.feature-card {
+  background-color: #fff;
+  padding: 34px 30px 28px 30px;
+  width: 300px;
+  text-align: center;
+  border-radius: 18px;
+  border: 3px solid #323232;
+  box-shadow: 10px 10px #323232;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 14px 14px #2a2a2a;
+}
+
+.feature-img {
+  width: 90px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1F2937;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
